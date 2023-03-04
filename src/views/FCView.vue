@@ -1,19 +1,20 @@
 <template>
-  <div class="home">
+  <div class="FC">
     <!-- <img alt="Vue logo" src="../assets/globe-life-logo.png" /> -->
     <img alt="Vue logo" src="../assets/fcfponline_logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <FCAuth />
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+
+import FCAuth from "@/components/FCAuth.vue";
 
 export default {
-  name: "HomeView",
+  name: "FCView",
   components: {
-    HelloWorld,
+    FCAuth,
   },
 };
 </script>

@@ -1,11 +1,24 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue";
+import FCView from "../views/FCView.vue";
+import HOView from "../views/HOView.vue";
 
 const routes = [
   {
     path: "/",
     name: "home",
     component: HomeView,
+  },
+
+  {
+    path: "/fcauth",
+    name: "FC",
+    component: FCView,
+  },
+  {
+    path: "/hoauth",
+    name: "HO",
+    component: HOView,
   },
   {
     path: "/about",
