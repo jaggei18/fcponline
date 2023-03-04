@@ -28,7 +28,7 @@ export default {
     //     if (tmp.length == 2) getVars[tmp[0]] = tmp[1];
     //   });
     //   console.log(getVars);
-    ///////
+    ///////test
     let uri = window.location.search.substring(1);
     let params = new URLSearchParams(uri.toLowerCase());
 
